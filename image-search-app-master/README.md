@@ -1,57 +1,45 @@
 Image Search App
-A sleek and responsive web application that lets users search and explore stunning visuals from the Unsplash API. Built with HTML, CSS, and JavaScript, this app delivers a seamless and interactive image discovery experience.
+Discover the world through visuals—one search at a time.
+
+A modern and responsive web application that allows users to explore breathtaking images using the Unsplash API. Developed using HTML, CSS, and JavaScript, this app ensures a seamless and interactive experience for creative enthusiasts and developers alike.
 
 📚 Table of Contents
 🚀 Introduction
-
 🛠️ Features
-
 🎯 Usage
-
 ⚙️ Configuration
-
 👩‍💻 Developed By
 
 🚀 Introduction
-The Image Search App empowers users to find beautiful, high-quality images by simply entering a keyword. The app connects with the Unsplash API to fetch real-time results and displays them in a responsive grid layout. Each image links directly to its source on Unsplash for easy access and attribution.
+The Image Search App offers users a powerful tool to find and view high-resolution images based on any keyword. By leveraging the Unsplash API, it fetches real-time image results and displays them in an elegant, responsive grid. Every image is clickable and linked directly to the original source on Unsplash, ensuring proper credit and easy access.
 
 🛠️ Features
-🔍 Real-time image search using the Unsplash API
-
-📱 Fully responsive grid layout
-
-🖼️ Click-to-expand image previews
-
-📤 "Show More" button for endless scrolling
-
-📂 Predefined categories for quick search access
+✨ Real-time search — Instantly fetch images as you search
+📱 Responsive design — Looks great on mobile, tablet, and desktop
+🖼️ Click-to-expand — View full details by clicking an image
+📤 Load more — Seamlessly fetch more results on demand
+📂 Quick categories — Explore popular image types with one click
 
 🎯 Usage
-🔎 Enter a keyword in the search bar and hit Enter or click the Search button.
-
-🖼️ Browse the search results displayed in a dynamic grid.
-
-👆 Click on any image to view details and open it on the Unsplash website.
-
-➕ Use the Show More button to load additional results.
-
-📁 Click predefined categories for one-click access to popular image themes.
+🔎 Enter a search term in the input field and press Enter or click Search.
+🖼️ Scroll through the grid of images fetched from Unsplash.
+👆 Click on any image to view it on Unsplash in a new tab.
+➕ Hit the "Show More" button to load additional results.
+📁 Use predefined category buttons to quickly browse common themes like nature, food, tech, and more.
 
 ⚙️ Configuration
-To enable the Unsplash API:
+To enable API integration:
 
-Go to the Unsplash Developers Portal and create a developer account.
+🔐 Visit the Unsplash Developers Portal
+🧾 Sign in and create a new application to get your Access Key
+✍️ Replace the placeholder in main.js with your key:
 
-Generate your personal API Access Key.
-
-In the main.js file, replace the placeholder with your API key:
-
-js
+javascript
 Copy
 Edit
 const accessKey = "YOUR_UNSPLASH_API_KEY";
-⚠️ Note: Keep your API key secure and do not share it publicly.
+⚠️ Important: Keep your API key confidential and avoid committing it to public repositories.
 
 👩‍💻 Developed By
-Made with ❤️ by Kalyani Chaudhari
-📬 Let’s connect and build something amazing together!
+Kalyani Chaudhari
+💌 Let’s connect and collaborate on amazing projects!
